@@ -1,0 +1,217 @@
+#-------------------------------
+# Site Settings
+title: Stephen SIMON
+logo: # You can add own logo. For example '/images/logo.png'.
+description: Creative Portfolio Theme for Jekyll.
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+#-------------------------------
+# Navigation Settings
+menu__settings:
+  menu__items:
+    - title: 'Home'
+      url: '/'
+    - title: 'About'
+      url: '/about/'
+    - title: 'Work'
+      url: '/work/'
+    - title: 'Blog'
+      url: '/blog/'
+    - title: 'Pages'
+      submenu:
+      - url: '/contact/'
+        title: 'Contact'
+      - url: '/elements/'
+        title: 'Elements'
+
+
+#-------------------------------
+# Author Settings
+author:
+  author__name: Stephen SIMON
+  author__bio: Hi, I'm Jason – Graphic Designer. I'm a creative and curious person who has a lot of experience and fond moments working with design, websites, and marketing.
+  author__avatar: '/images/01.jpg'
+
+social:
+- {icon: "ion-logo-twitter", link: "https://twitter.com/codewithsimon"}
+- {icon: "ion-logo-instagram", link: "https://instagram.com/codewithsimon"}
+- {icon: "ion-logo-github", link: "https://github.com/codewithsimon"}
+- {icon: "ion-logo-youtube", link: "https://youtube.com/stephensimon"}
+
+# Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
+# Other icons can be found at https://ionicons.com/v4/
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  enable: true
+  hero__title: Namaste, I’m Stephen SIMON
+  hero__description: I build solutions with React & Flutter, and lead one of the world's largest developer's community.
+  hero__image: "/images/01-1.jpg"
+
+
+#-------------------------------
+# Logos Settings
+logos:
+  enable: true
+  logos__title: I’ve worked with some great teams...
+
+logo__items:
+  - name: C# Corner
+    link: "https://www.csharp.com/"
+    image: "/images/CSharp-Corner-Logo.png"
+
+  - name: MCN Solutions
+    link: "https://www.mcnsolutions.net/"
+    image: "/images/MCN-Solutions-Logo.png"
+
+  - name: CSharp TV
+    link: "https://www.csharp.tv/"
+    image: "/images/CSharp-TV-Logo.png"
+    
+  - name: Microsoft Teams
+    link: "https://www.microsoft.com/en-in/microsoft-team"
+    image: "/images/Microssoft-Teams-Logo.png"
+    
+  - name: Microsoft Power Platform
+    link: "https://www.pinterest.com/"
+    image: "/images/Power-Platform-Logo.png"
+    
+  - name: Azure Cosmos DB
+    link: "https://azure.microsoft.com/en-us/products/cosmos-db/"
+    image: "/images/cosmos-logo.svg"
+    
+  - name: Azure SQL
+    link: "https://azure.microsoft.com/en-in/products/azure-sql"
+    image: "/images/Azure-SQL-Logo.png"
+
+  - name: Global AI Community
+    link: "https://azure.microsoft.com/en-us/products/cosmos-db/"
+    image: "/images/Global-AI-Community-Logo.png"
+    
+  - name: Appwrite      
+    link: "https://azure.microsoft.com/en-in/products/azure-sql"
+    image: "/images/Appwrite-Logo.png"
+    
+  - name: dotNet       
+    link: "https://azure.microsoft.com/en-in/products/azure-sql"
+    image: "/images/DotNet-Logo.jpg"
+    
+
+#-------------------------------
+# Newsletter
+mailchimp:
+  enable: false
+  mailchimp__identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+  mailchimp__input__text: Your email address...
+  mailchimp__button__text: Subscribe
+
+
+#-------------------------------
+# Work Settings
+work:
+  enable: true
+  work__title: Work
+  work__description: I shows only the best websites and portfolios built completely with passion, simplicity & creativity!
+
+
+#-------------------------------
+# Testimonials Section
+testimonials:
+  enable: true
+
+testimonial__title: Testimonials
+testimonial__description:
+
+testimonial__items:
+  - name: "Hanna Septimus"
+    image: "/images/client-1.jpg"
+    designation: "Product Designer at Microsoft"
+    link: "https://twitter.com/"
+    content : "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integrationKeeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration "
+
+  - name: "Carla Rosser"
+    image: "/images/client-2.jpg"
+    designation: "Statistician"
+    link: "https://facebook.com/"
+    content : "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
+
+  - name: "Maria Curtis"
+    image: "/images/client-3.jpg"
+    designation: "Team Lead"
+    link: "https://twitter.com/"
+    content : "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
+
+  - name: "Carter Bergson"
+    image: "/images/client-4.jpg"
+    designation: "CEO, Founder"
+    link: "https://facebook.com/"
+    content : "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
+
+  - name: "Jordyn Franci"
+    image: "/images/client-5.jpg"
+    designation: "Personal Trainer"
+    link: "https://twitter.com/"
+    content : "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
+
+  - name: "Mira Carder"
+    image: "/images/client-6.jpg"
+    designation: "Data Scientist"
+    link: "https://facebook.com/"
+    content : "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
+
+  - name: "Madelyn Herwitz"
+    image: "/images/client-7.jpg"
+    designation: "Frontend Engineer"
+    link: "https://twitter.com/"
+    content : "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
+
+  - name: "Anika Schleifer"
+    image: "/images/client-8.jpg"
+    designation: "Fitness Director"
+    link: "https://facebook.com/"
+    content : "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
+
+  - name: "Wilson Dorwart"
+    image: "/images/client-9.jpg"
+    designation: "Financial Manager"
+    link: "https://twitter.com/"
+    content : "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
+
+
+#-------------------------------
+# Blog Section
+blog:
+  enable: true
+
+blog__settings:
+  blog__title: Writing
+  blog__description:
+
+
+#-------------------------------
+# Footer Settings
+footer__background__image: "/images/01-2.jpg"
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: xyyajjrn
+  description: Akio comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+
+# NOTE
+# Akio theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus:
+  enable: true
+  disqus__identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your GA Tracking Id

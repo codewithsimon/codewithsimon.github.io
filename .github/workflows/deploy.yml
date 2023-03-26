@@ -1,0 +1,17 @@
+name: Deploy Jekyll Site
+
+on:
+  push:
+    branches:
+      - main  # replace with the name of your default branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build and Deploy
+      uses: helaili/jekyll-action@v2.2.0
+      env:
+        JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+        JEKYLL_ENV: production
