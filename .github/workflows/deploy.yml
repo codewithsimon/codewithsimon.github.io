@@ -1,17 +1,22 @@
-name: Deploy Jekyll Site
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # replace with the name of your default branch
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Build and Deploy
-      uses: helaili/jekyll-action@v2.2.0
-      env:
-        JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
-        JEKYLL_ENV: production
+    - uses: helaili/jekyll-action@2.1.1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        plugins: jekyll-paginate
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
+
