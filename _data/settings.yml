@@ -12,25 +12,25 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'About'
-      url: '/about/'
-    - title: 'Work'
-      url: '/work/'
+    # - title: 'About'
+    #   url: '/about/'
+    # - title: 'Work'
+    #   url: '/work/'
     - title: 'Blog'
       url: '/blog/'
-    - title: 'Pages'
-      submenu:
-      - url: '/contact/'
-        title: 'Contact'
-      - url: '/elements/'
-        title: 'Elements'
+    # - title: 'Pages'
+    #   submenu:
+    #   - url: '/contact/'
+    #     title: 'Contact'
+    #   - url: '/elements/'
+    #     title: 'Elements'
 
 
 #-------------------------------
 # Author Settings
 author:
   author__name: Stephen SIMON
-  author__bio: Hi, I'm Jason – Graphic Designer. I'm a creative and curious person who has a lot of experience and fond moments working with design, websites, and marketing.
+  author__bio: Hi, I'm Simon – React Developer. I'm a creative and curious person who has decent experience and fond moments working with community, websites, and marketing.
   author__avatar: '/images/01.jpg'
 
 social:
@@ -48,7 +48,7 @@ social:
 hero:
   enable: true
   hero__title: Namaste, I’m Stephen SIMON
-  hero__description: I build solutions with React & Flutter, and lead one of the world's largest developer's community.
+  hero__description: I build solutions with React and lead one of the world's largest developer's community.
   hero__image: "/images/01-1.jpg"
 
 
@@ -120,7 +120,7 @@ work:
 #-------------------------------
 # Testimonials Section
 testimonials:
-  enable: true
+  enable: false
 
 testimonial__title: Testimonials
 testimonial__description:
